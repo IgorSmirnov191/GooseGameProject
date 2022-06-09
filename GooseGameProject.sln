@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GooseGameProject", "GooseGameProject.csproj", "{73CEE994-F9DA-4190-878D-EA971D04A41B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GooseGameLib", "GooseGameLib", "{A5524016-9565-42FF-B428-61D97E1F112B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GooseGame", "GoosGame\GooseGame.csproj", "{6937BE16-AC1E-4515-A383-9E045BEA6416}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GooseGameConsoleApp", "GooseGameConsoleApp", "{71BBD0B7-4D2C-4132-BD8F-778FB66BD027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GooseGameConsoleApp", "GooseGameConsoleApp\GooseGameConsoleApp.csproj", "{9CF65789-0794-4BB2-9C4A-C2BD09CC7CBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GooseGameWpfApp", "GooseGameWpfApp", "{A49E5265-8CED-4BC3-8733-5ACA28FFBFD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GooseGameWpf", "GooseGameWpf\GooseGameWpf.csproj", "{74415C81-64FB-4B5A-A431-AE23A33A107C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GooseGameTests", "GooseGameTests", "{357AE10F-CF5B-4FEA-BB32-263E47F7C998}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73CEE994-F9DA-4190-878D-EA971D04A41B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CEE994-F9DA-4190-878D-EA971D04A41B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CEE994-F9DA-4190-878D-EA971D04A41B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CEE994-F9DA-4190-878D-EA971D04A41B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6937BE16-AC1E-4515-A383-9E045BEA6416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6937BE16-AC1E-4515-A383-9E045BEA6416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6937BE16-AC1E-4515-A383-9E045BEA6416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6937BE16-AC1E-4515-A383-9E045BEA6416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF65789-0794-4BB2-9C4A-C2BD09CC7CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF65789-0794-4BB2-9C4A-C2BD09CC7CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF65789-0794-4BB2-9C4A-C2BD09CC7CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF65789-0794-4BB2-9C4A-C2BD09CC7CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74415C81-64FB-4B5A-A431-AE23A33A107C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74415C81-64FB-4B5A-A431-AE23A33A107C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74415C81-64FB-4B5A-A431-AE23A33A107C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74415C81-64FB-4B5A-A431-AE23A33A107C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6937BE16-AC1E-4515-A383-9E045BEA6416} = {A5524016-9565-42FF-B428-61D97E1F112B}
+		{9CF65789-0794-4BB2-9C4A-C2BD09CC7CBC} = {71BBD0B7-4D2C-4132-BD8F-778FB66BD027}
+		{74415C81-64FB-4B5A-A431-AE23A33A107C} = {A49E5265-8CED-4BC3-8733-5ACA28FFBFD9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43EC17F1-51B5-4500-953C-65C766B4964D}
+	EndGlobalSection
+EndGlobal
