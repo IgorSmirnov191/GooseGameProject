@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GooseGameWpf", "GooseGameWp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GooseGameTests", "GooseGameTests", "{357AE10F-CF5B-4FEA-BB32-263E47F7C998}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GooseGame.Tests", "GooseGame.Tests\GooseGame.Tests.csproj", "{FACA8AE1-B466-4D42-B2F2-9493756F6E0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{74415C81-64FB-4B5A-A431-AE23A33A107C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74415C81-64FB-4B5A-A431-AE23A33A107C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74415C81-64FB-4B5A-A431-AE23A33A107C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FACA8AE1-B466-4D42-B2F2-9493756F6E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FACA8AE1-B466-4D42-B2F2-9493756F6E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FACA8AE1-B466-4D42-B2F2-9493756F6E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FACA8AE1-B466-4D42-B2F2-9493756F6E0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 		{6937BE16-AC1E-4515-A383-9E045BEA6416} = {A5524016-9565-42FF-B428-61D97E1F112B}
 		{9CF65789-0794-4BB2-9C4A-C2BD09CC7CBC} = {71BBD0B7-4D2C-4132-BD8F-778FB66BD027}
 		{74415C81-64FB-4B5A-A431-AE23A33A107C} = {A49E5265-8CED-4BC3-8733-5ACA28FFBFD9}
+		{FACA8AE1-B466-4D42-B2F2-9493756F6E0F} = {357AE10F-CF5B-4FEA-BB32-263E47F7C998}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43EC17F1-51B5-4500-953C-65C766B4964D}
